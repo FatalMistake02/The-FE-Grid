@@ -15,5 +15,5 @@ Curseforge: https://www.curseforge.com/minecraft/mc-mods/the-fe-grid
 If you would like to help with the mod, or need help, join the discord server:
 https://discord.gg/pmsRstnNzn
 
-![GPL License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
 
