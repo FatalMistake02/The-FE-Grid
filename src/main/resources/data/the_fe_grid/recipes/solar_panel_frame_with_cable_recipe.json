@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "the_fe_grid:cable_n"
+    }
+  },
+  "result": {
+    "item": "the_fe_grid:solar_panel_frame_with_cable",
+    "count": 4
+  }
+}

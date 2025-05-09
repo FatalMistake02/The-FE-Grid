@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "frame_powercable"
+      },
+      "name": "default"
+    }
+  }
+}

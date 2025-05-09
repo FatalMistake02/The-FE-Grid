@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:stone"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "the_fe_grid:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "the_fe_grid:extruder",
+    "count": 1
+  }
+}

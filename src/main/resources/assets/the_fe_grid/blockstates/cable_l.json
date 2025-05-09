@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_fe_grid:block/cable_l"
+    },
+    "facing=east": {
+      "model": "the_fe_grid:block/cable_l",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_fe_grid:block/cable_l",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_fe_grid:block/cable_l",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "the_fe_grid:block/cable_l",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "the_fe_grid:block/cable_l",
+      "x": 90
+    }
+  }
+}

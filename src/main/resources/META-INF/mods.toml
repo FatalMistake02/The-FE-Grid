@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="the_fe_grid"
+version="1.1.3"
+displayName="The FE Grid 1.1.3 MC 1.20.1 "
+displayURL="https://thefegrid.notion.site/The-FE-Grid-1ecf9c81abac80cf8344ca709ab9b84e?pvs=4"
+logoFile="logo.png"
+credits="MCreator - https://mcreator.net/about"
+authors="FatalMistake02"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.the_fe_grid]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

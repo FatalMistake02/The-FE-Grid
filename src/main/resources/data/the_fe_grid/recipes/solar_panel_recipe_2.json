@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_fe_grid:solar_panel_on_frame"
+    }
+  ],
+  "result": {
+    "item": "the_fe_grid:solar_panel",
+    "count": 1
+  }
+}

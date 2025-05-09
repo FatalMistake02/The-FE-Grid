@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "the_fe_grid:capacitor"
+    },
+    "b": {
+      "item": "the_fe_grid:diamond_circuit"
+    },
+    "c": {
+      "item": "the_fe_grid:copper_wire"
+    }
+  },
+  "result": {
+    "item": "the_fe_grid:solar_panel_circuit",
+    "count": 1
+  }
+}

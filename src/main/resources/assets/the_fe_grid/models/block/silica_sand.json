@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_fe_grid:block/silicasand",
+    "particle": "the_fe_grid:block/silicasand"
+  },
+  "render_type": "solid"
+}

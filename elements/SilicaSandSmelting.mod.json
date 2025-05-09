@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.6,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SilicaSand"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SiliconNugget"
+    },
+    "name": "silica_sand_smelting",
+    "namespace": "mod"
+  }
+}

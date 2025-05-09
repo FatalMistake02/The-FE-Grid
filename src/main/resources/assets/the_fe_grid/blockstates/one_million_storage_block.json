@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "the_fe_grid:block/one_million_storage_block"
+    }
+  }
+}

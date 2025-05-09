@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "the_fe_grid:bauxite_ore",
+  "step": "underground_ores"
+}

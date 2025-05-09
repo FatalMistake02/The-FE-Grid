@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_fe_grid:block/extruder"
+    },
+    "facing=east": {
+      "model": "the_fe_grid:block/extruder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_fe_grid:block/extruder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_fe_grid:block/extruder",
+      "y": 270
+    }
+  }
+}

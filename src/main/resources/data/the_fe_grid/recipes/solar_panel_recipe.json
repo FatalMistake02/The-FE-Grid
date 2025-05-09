@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "ccc",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "the_fe_grid:aluminium_frame"
+    },
+    "b": {
+      "item": "minecraft:glass_pane"
+    },
+    "c": {
+      "item": "the_fe_grid:solar_cell"
+    },
+    "d": {
+      "item": "the_fe_grid:solar_panel_circuit"
+    }
+  },
+  "result": {
+    "item": "the_fe_grid:solar_panel",
+    "count": 1
+  }
+}
