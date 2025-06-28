@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "The FE Grid",
+    "icon": {
+      "value": "CUSTOM:EnergyBlock"
+    },
+    "showSearch": false
+  }
+}

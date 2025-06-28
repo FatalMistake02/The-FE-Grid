@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IronWire"
+      },
+      {
+        "value": "CUSTOM:SiliconWafer"
+      },
+      {
+        "value": "CUSTOM:IronWire"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:IronWire"
+      },
+      {
+        "value": "CUSTOM:SiliconWafer"
+      },
+      {
+        "value": "CUSTOM:IronWire"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IronCircuit"
+    },
+    "name": "iron_circuit_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_fe_grid:blocks/granite",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the_fe_grid:lithium_dust",
+          "functions": [
+            {
+              "count": 5,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

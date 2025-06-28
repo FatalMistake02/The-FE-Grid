@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_fe_grid:bauxite_block"
+    }
+  ],
+  "result": {
+    "item": "the_fe_grid:bauxite_dust",
+    "count": 9
+  }
+}

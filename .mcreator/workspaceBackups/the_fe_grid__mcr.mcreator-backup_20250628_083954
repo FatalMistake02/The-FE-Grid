@@ -1,0 +1,2926 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheFEGrid",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_fe_grid",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Energy Block"
+    },
+    {
+      "name": "EnergyBlockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_block_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/EnergyBlockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Energy Block"
+    },
+    {
+      "name": "EnergyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/EnergyBlockBlock.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/energy_block.json",
+          "src/main/resources/assets/the_fe_grid/models/block/energy_block.json",
+          "src/main/resources/assets/the_fe_grid/models/item/energy_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/EnergyBlockBlockEntity.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/energy_block.json"
+        ]
+      },
+      "path": "~/Energy Block"
+    },
+    {
+      "name": "SolarPanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/entity/SolarPanelBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/solar_panel.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/solar_panel.json",
+          "src/main/java/net/mcreator/thefegrid/block/SolarPanelBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/item/solar_panel.json",
+          "src/main/resources/assets/the_fe_grid/models/block/solar_panel.json"
+        ]
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "SolarPanelOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/SolarPanelOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "SolarPanelOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/SolarPanelOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "SolarPanelOnFrame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_on_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/solar_panel_on_frame.json",
+          "src/main/resources/assets/the_fe_grid/models/block/solar_panel_on_frame.json",
+          "src/main/java/net/mcreator/thefegrid/block/SolarPanelOnFrameBlock.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/solar_panel_on_frame.json",
+          "src/main/resources/assets/the_fe_grid/models/item/solar_panel_on_frame.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/SolarPanelOnFrameBlockEntity.java"
+        ]
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "SolarPanelOnFrameRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_on_frame_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/solar_panel_on_frame_recipe_2.json"
+        ]
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "SolarPanelRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/solar_panel_recipe_2.json"
+        ]
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "SolarPanelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/solar_panel_recipe.json"
+        ]
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "SolarPanelFrame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_frame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/SolarPanelFrameBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/item/solar_panel_frame.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/solar_panel_frame.json",
+          "src/main/resources/assets/the_fe_grid/models/block/solar_panel_frame.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/solar_panel_frame.json"
+        ]
+      },
+      "path": "~/Solar Panel Frame"
+    },
+    {
+      "name": "SolarPanelFrameWithCable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_frame_with_cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/blockstates/solar_panel_frame_with_cable.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/solar_panel_frame_with_cable.json",
+          "src/main/resources/assets/the_fe_grid/models/block/solar_panel_frame_with_cable.json",
+          "src/main/java/net/mcreator/thefegrid/block/SolarPanelFrameWithCableBlock.java",
+          "src/main/java/net/mcreator/thefegrid/block/entity/SolarPanelFrameWithCableBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/solar_panel_frame_with_cable.json"
+        ]
+      },
+      "path": "~/Solar Panel Frame"
+    },
+    {
+      "name": "SolarPanelFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/solar_panel_frame_recipe.json"
+        ]
+      },
+      "path": "~/Solar Panel Frame"
+    },
+    {
+      "name": "SolarPanelFrameWithCableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_frame_with_cable_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/solar_panel_frame_with_cable_recipe.json"
+        ]
+      },
+      "path": "~/Solar Panel Frame"
+    },
+    {
+      "name": "FETestBlockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fe_test_block_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/FETestBlockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE Test"
+    },
+    {
+      "name": "FETestBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fe_test_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/FETestBlockBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/fe_test_block.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/fe_test_block.json",
+          "src/main/resources/assets/the_fe_grid/models/item/fe_test_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/FETestBlockBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/block/fe_test_block.json"
+        ]
+      },
+      "path": "~/FE Test"
+    },
+    {
+      "name": "FETestBlockGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fe_test_block_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/client/gui/FETestBlockGUIScreen.java",
+          "src/main/java/net/mcreator/thefegrid/world/inventory/FETestBlockGUIMenu.java"
+        ]
+      },
+      "path": "~/FE Test"
+    },
+    {
+      "name": "HalfAMillionStorageBlockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storage_block_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/HalfAMillionStorageBlockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "HalfAMillionStorageBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "half_a_million_storage_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/blockstates/half_a_million_storage_block.json",
+          "src/main/resources/assets/the_fe_grid/models/item/half_a_million_storage_block.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/half_a_million_storage_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/HalfAMillionStorageBlockBlockEntity.java",
+          "src/main/java/net/mcreator/thefegrid/block/HalfAMillionStorageBlockBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/block/half_a_million_storage_block.json"
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "HalfAMillionStorageBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "half_a_million_storage_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/half_a_million_storage_block_recipe.json"
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "QuarterOfAMillionStorageBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarter_of_a_million_storage_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/entity/QuarterOfAMillionStorageBlockBlockEntity.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/quarter_of_a_million_storage_block.json",
+          "src/main/resources/assets/the_fe_grid/models/block/quarter_of_a_million_storage_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/QuarterOfAMillionStorageBlockBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/item/quarter_of_a_million_storage_block.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/quarter_of_a_million_storage_block.json"
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "QuarterOfAMillionStorageBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarter_of_a_million_storage_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/quarter_of_a_million_storage_block_recipe.json"
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "OneMillionStorageBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_million_storage_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/entity/OneMillionStorageBlockBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/one_million_storage_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/OneMillionStorageBlockBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/one_million_storage_block.json",
+          "src/main/resources/assets/the_fe_grid/models/block/one_million_storage_block.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/one_million_storage_block.json"
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "OneMillionStorageBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_million_storage_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/one_million_storage_block_recipe.json"
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "SendFE",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "send_fe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/SendFEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GlobalProcedures"
+    },
+    {
+      "name": "BauxiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/blockstates/bauxite_ore.json",
+          "src/main/resources/data/the_fe_grid/forge/biome_modifier/bauxite_ore_biome_modifier.json",
+          "src/main/resources/data/the_fe_grid/worldgen/configured_feature/bauxite_ore.json",
+          "src/main/resources/data/the_fe_grid/worldgen/placed_feature/bauxite_ore.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/bauxite_ore.json",
+          "src/main/resources/assets/the_fe_grid/models/block/bauxite_ore.json",
+          "src/main/java/net/mcreator/thefegrid/block/BauxiteOreBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/item/bauxite_ore.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Bauxite"
+    },
+    {
+      "name": "BauxiteDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/bauxite_dust.json",
+          "src/main/java/net/mcreator/thefegrid/item/BauxiteDustItem.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Bauxite"
+    },
+    {
+      "name": "BauxiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/bauxite_block.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/bauxite_block.json",
+          "src/main/resources/assets/the_fe_grid/models/item/bauxite_block.json",
+          "src/main/resources/assets/the_fe_grid/models/block/bauxite_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/BauxiteBlockBlock.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Bauxite"
+    },
+    {
+      "name": "BauxiteBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/bauxite_block_recipe.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Bauxite"
+    },
+    {
+      "name": "BauxiteDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/bauxite_dust_recipe.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Bauxite"
+    },
+    {
+      "name": "BauxiteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/bauxite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Bauxite"
+    },
+    {
+      "name": "Carbon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/carbon.json",
+          "src/main/java/net/mcreator/thefegrid/item/CarbonItem.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Carbon"
+    },
+    {
+      "name": "SilicaSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silica_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/silica_sand.json",
+          "src/main/resources/assets/the_fe_grid/models/item/silica_sand.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/silica_sand.json",
+          "src/main/java/net/mcreator/thefegrid/block/SilicaSandBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/block/silica_sand.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Silicon"
+    },
+    {
+      "name": "SiliconNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/SiliconNuggetItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/silicon_nugget.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Silicon"
+    },
+    {
+      "name": "SilicaSandSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silica_sand_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/silica_sand_smelting.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Silicon"
+    },
+    {
+      "name": "SiliconIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/silicon_ingot.json",
+          "src/main/java/net/mcreator/thefegrid/item/SiliconIngotItem.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Silicon"
+    },
+    {
+      "name": "SiliconIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/silicon_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Silicon"
+    },
+    {
+      "name": "SiliconWafer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon_wafer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/SiliconWaferItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/silicon_wafer.json"
+        ]
+      },
+      "path": "~/Components/SiliconWafer"
+    },
+    {
+      "name": "SiliconWaferRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon_wafer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/silicon_wafer_recipe.json"
+        ]
+      },
+      "path": "~/Components/SiliconWafer"
+    },
+    {
+      "name": "WireSpool",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire_spool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/WireSpoolItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/wire_spool.json"
+        ]
+      },
+      "path": "~/Other Items/WireSpool"
+    },
+    {
+      "name": "WireSpoolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire_spool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/wire_spool_recipe.json"
+        ]
+      },
+      "path": "~/Other Items/WireSpool"
+    },
+    {
+      "name": "AluminiumFrame",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/aluminium_frame.json",
+          "src/main/java/net/mcreator/thefegrid/item/AluminiumFrameItem.java"
+        ]
+      },
+      "path": "~/Other Items/AluminiumFrame"
+    },
+    {
+      "name": "AluminiumFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/aluminium_frame_recipe.json"
+        ]
+      },
+      "path": "~/Other Items/AluminiumFrame"
+    },
+    {
+      "name": "IronSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/IronSheetItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/iron_sheet.json"
+        ]
+      },
+      "path": "~/Other Items/IronSheet"
+    },
+    {
+      "name": "IronSheetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sheet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/iron_sheet_recipe.json"
+        ]
+      },
+      "path": "~/Other Items/IronSheet"
+    },
+    {
+      "name": "IronWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/iron_wire.json",
+          "src/main/java/net/mcreator/thefegrid/item/IronWireItem.java"
+        ]
+      },
+      "path": "~/Components/Wire"
+    },
+    {
+      "name": "CopperWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/CopperWireItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/copper_wire.json"
+        ]
+      },
+      "path": "~/Components/Wire"
+    },
+    {
+      "name": "Capacitor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/CapacitorItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/capacitor.json"
+        ]
+      },
+      "path": "~/Components/Capacitor"
+    },
+    {
+      "name": "CapacitorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/capacitor_recipe.json"
+        ]
+      },
+      "path": "~/Components/Capacitor"
+    },
+    {
+      "name": "BatteryRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/battery_recipe.json"
+        ]
+      },
+      "path": "~/Components/Batteries"
+    },
+    {
+      "name": "LithiumCell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_cell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/lithium_cell.json",
+          "src/main/java/net/mcreator/thefegrid/item/LithiumCellItem.java"
+        ]
+      },
+      "path": "~/Components/Batteries"
+    },
+    {
+      "name": "LithiumCellRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_cell_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/lithium_cell_recipe.json"
+        ]
+      },
+      "path": "~/Components/Batteries"
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/battery.json",
+          "src/main/java/net/mcreator/thefegrid/item/BatteryItem.java"
+        ]
+      },
+      "path": "~/Components/Batteries"
+    },
+    {
+      "name": "Granite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/GraniteBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/granite.json",
+          "src/main/resources/assets/the_fe_grid/models/block/granite.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/granite.json",
+          "src/main/resources/assets/the_fe_grid/models/item/granite.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Granite-Lithium"
+    },
+    {
+      "name": "LithiumDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/LithiumDustItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/lithium_dust.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Granite-Lithium"
+    },
+    {
+      "name": "LithiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/lithium_ingot.json",
+          "src/main/java/net/mcreator/thefegrid/item/LithiumIngotItem.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Granite-Lithium"
+    },
+    {
+      "name": "Extruder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extruder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/ExtruderBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/block/extruder.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/extruder.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/extruder.json",
+          "src/main/resources/assets/the_fe_grid/models/item/extruder.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/ExtruderBlockEntity.java"
+        ]
+      },
+      "path": "~/Workstations/Extruder"
+    },
+    {
+      "name": "Wiki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/WikiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GlobalProcedures"
+    },
+    {
+      "name": "ExtruderGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extruder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/network/ExtruderGUISlotMessage.java",
+          "src/main/java/net/mcreator/thefegrid/client/gui/ExtruderGUIScreen.java",
+          "src/main/java/net/mcreator/thefegrid/network/ExtruderGUIButtonMessage.java",
+          "src/main/java/net/mcreator/thefegrid/world/inventory/ExtruderGUIMenu.java"
+        ]
+      },
+      "path": "~/Workstations/Extruder"
+    },
+    {
+      "name": "ExtruderGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extruder_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/ExtruderGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Workstations/Extruder"
+    },
+    {
+      "name": "ExtruderGUIRecipeMade",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extruder_gui_recipe_made",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/ExtruderGUIRecipeMadeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Workstations/Extruder"
+    },
+    {
+      "name": "ExtruderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extruder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/extruder_recipe.json"
+        ]
+      },
+      "path": "~/Workstations/Extruder"
+    },
+    {
+      "name": "AluminiumProcessor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_processor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/aluminium_processor.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/aluminium_processor.json",
+          "src/main/resources/assets/the_fe_grid/models/block/aluminium_processor.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/aluminium_processor.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/AluminiumProcessorBlockEntity.java",
+          "src/main/java/net/mcreator/thefegrid/block/AluminiumProcessorBlock.java"
+        ]
+      },
+      "path": "~/Workstations/AluminiumProcessor"
+    },
+    {
+      "name": "AluminiumProcessorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_processor_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/client/gui/AluminiumProcessorGUIScreen.java",
+          "src/main/java/net/mcreator/thefegrid/world/inventory/AluminiumProcessorGUIMenu.java"
+        ]
+      },
+      "path": "~/Workstations/AluminiumProcessor"
+    },
+    {
+      "name": "AluminiumProcessorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_processor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/aluminium_processor_recipe.json"
+        ]
+      },
+      "path": "~/Workstations/AluminiumProcessor"
+    },
+    {
+      "name": "Alumina",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alumina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/AluminaItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/alumina.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Aluminium"
+    },
+    {
+      "name": "AluminiumProcessorGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_processor_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/AluminiumProcessorGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Workstations/AluminiumProcessor"
+    },
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/aluminium_ingot.json",
+          "src/main/java/net/mcreator/thefegrid/item/AluminiumIngotItem.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Aluminium"
+    },
+    {
+      "name": "AluminiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/aluminium_block.json",
+          "src/main/resources/assets/the_fe_grid/models/item/aluminium_block.json",
+          "src/main/resources/assets/the_fe_grid/models/block/aluminium_block.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/aluminium_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/AluminiumBlockBlock.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Aluminium"
+    },
+    {
+      "name": "AluminiumBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/aluminium_block_recipe.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Aluminium"
+    },
+    {
+      "name": "AluminiumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/aluminium_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Aluminium"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/thefegrid/item/SteelIngotItem.java"
+        ]
+      },
+      "path": "~/Ores-Metals/Steel"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/steel_block.json",
+          "src/main/resources/assets/the_fe_grid/models/block/steel_block.json",
+          "src/main/java/net/mcreator/thefegrid/block/SteelBlockBlock.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/steel_block.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/steel_block.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Steel"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/steel_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Steel"
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/steel_block_recipe.json"
+        ]
+      },
+      "path": "~/Ores-Metals/Steel"
+    },
+    {
+      "name": "DiamondCircuit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_circuit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/diamond_circuit.json",
+          "src/main/java/net/mcreator/thefegrid/item/DiamondCircuitItem.java"
+        ]
+      },
+      "path": "~/Circuits"
+    },
+    {
+      "name": "GoldCircuit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_circuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/GoldCircuitItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/gold_circuit.json"
+        ]
+      },
+      "path": "~/Circuits"
+    },
+    {
+      "name": "IronCircuit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_circuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/IronCircuitItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/iron_circuit.json"
+        ]
+      },
+      "path": "~/Circuits"
+    },
+    {
+      "name": "DiamondCircuitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_circuit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/diamond_circuit_recipe.json"
+        ]
+      },
+      "path": "~/Circuits"
+    },
+    {
+      "name": "GoldCircuitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_circuit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/gold_circuit_recipe.json"
+        ]
+      },
+      "path": "~/Circuits"
+    },
+    {
+      "name": "IronCircuitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_circuit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/iron_circuit_recipe.json"
+        ]
+      },
+      "path": "~/Circuits"
+    },
+    {
+      "name": "SolarPanelCircuit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_circuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/item/SolarPanelCircuitItem.java",
+          "src/main/resources/assets/the_fe_grid/models/item/solar_panel_circuit.json"
+        ]
+      },
+      "path": "~/Circuit Boards"
+    },
+    {
+      "name": "SolarPanelCircuitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_circuit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/solar_panel_circuit_recipe.json"
+        ]
+      },
+      "path": "~/Circuit Boards"
+    },
+    {
+      "name": "CarbonDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CarbonDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ores-Metals/Carbon"
+    },
+    {
+      "name": "SmelterGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelter_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/SmelterGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Workstations/Smelter"
+    },
+    {
+      "name": "SmelterGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelter_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/world/inventory/SmelterGUIMenu.java",
+          "src/main/java/net/mcreator/thefegrid/client/gui/SmelterGUIScreen.java"
+        ]
+      },
+      "path": "~/Workstations/Smelter"
+    },
+    {
+      "name": "Smelter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/entity/SmelterBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/smelter.json",
+          "src/main/resources/assets/the_fe_grid/models/block/smelter.json",
+          "src/main/java/net/mcreator/thefegrid/block/SmelterBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/smelter.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/smelter.json"
+        ]
+      },
+      "path": "~/Workstations/Smelter"
+    },
+    {
+      "name": "CableN",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableNBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_n.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_n.json",
+          "src/main/java/net/mcreator/thefegrid/block/CableNBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_n.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_n.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable"
+    },
+    {
+      "name": "CableOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_e",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/block/cable_e.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_e.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_e.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_e.json",
+          "src/main/java/net/mcreator/thefegrid/block/CableEBlock.java",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableEBlockEntity.java"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableI",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/cable_i.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_i.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_i.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableIBlockEntity.java",
+          "src/main/java/net/mcreator/thefegrid/block/CableIBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_i.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableL",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableLBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_l.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_l.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_l.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableLBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_l.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableLC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableLCBlock.java",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableLCBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_lc.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_lc.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_lc.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_lc.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableLCC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_lcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableLCCBlock.java",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableLCCBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_lcc.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_lcc.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_lcc.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_lcc.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableLT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_lt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/cable_lt.json",
+          "src/main/java/net/mcreator/thefegrid/block/CableLTBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_lt.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableLTBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_lt.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_lt.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableLTC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_ltc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableLTCBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_ltc.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableLTCBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_ltc.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_ltc.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_ltc.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_t",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableTBlock.java",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_t.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_t.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableTBlockEntity.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_t.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_t.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableTC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_tc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_tc.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_tc.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableTCBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_tc.json",
+          "src/main/java/net/mcreator/thefegrid/block/CableTCBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_tc.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableTX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_tx",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_tx.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableTXBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_tx.json",
+          "src/main/java/net/mcreator/thefegrid/block/CableTXBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_tx.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_tx.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableTXC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_txc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableTXCBlockEntity.java",
+          "src/main/java/net/mcreator/thefegrid/block/CableTXCBlock.java",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_txc.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_txc.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_txc.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_txc.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableTXCC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_txcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableTXCCBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_txcc.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_txcc.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_txcc.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_txcc.json",
+          "src/main/java/net/mcreator/thefegrid/block/CableTXCCBlock.java"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableXBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_x.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_x.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_x.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_x.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableXBlockEntity.java"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableXC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_xc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableXCBlock.java",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableXCBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_xc.json",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_xc.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_xc.json",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_xc.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableF",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_f",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_f.json",
+          "src/main/java/net/mcreator/thefegrid/block/CableFBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_f.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_f.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableFBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_f.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableS",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/block/CableSBlock.java",
+          "src/main/resources/data/the_fe_grid/loot_tables/blocks/cable_s.json",
+          "src/main/resources/assets/the_fe_grid/blockstates/cable_s.json",
+          "src/main/java/net/mcreator/thefegrid/block/entity/CableSBlockEntity.java",
+          "src/main/resources/assets/the_fe_grid/models/block/cable_s.json",
+          "src/main/resources/assets/the_fe_grid/models/item/cable_s.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable/OtherCableModels"
+    },
+    {
+      "name": "CableUpdateTickEnergy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickEnergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableModelUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_model_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableModelUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsN",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsNProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsE",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsLProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsLC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsLCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsLCC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_lcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsLCCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsLT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_lt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsLTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsLTC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_ltc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsLTCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_t",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsTC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_tc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsTCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsTX",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_tx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsTXProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsTXC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_txc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsTXCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsTXCC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_txcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsTXCCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsX",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsXProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsXC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_xc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsXCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsF",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_f",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "CableUpdateTickModelsS",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_update_tick_models_s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableUpdateTickModelsSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cables/Basic Cable/Procedures"
+    },
+    {
+      "name": "SolarPanelBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/SolarPanelBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Solar Panels"
+    },
+    {
+      "name": "EnergyStorageAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_storage_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/EnergyStorageAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE Storage Blocks"
+    },
+    {
+      "name": "AddToCableSystem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_to_cable_system",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/AddToCableSystemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GlobalProcedures"
+    },
+    {
+      "name": "SmelterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/smelter_recipe.json"
+        ]
+      },
+      "path": "~/Workstations/Smelter"
+    },
+    {
+      "name": "SolarCell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_cell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_fe_grid/models/item/solar_cell.json",
+          "src/main/java/net/mcreator/thefegrid/item/SolarCellItem.java"
+        ]
+      },
+      "path": "~/Components/Solar Cell"
+    },
+    {
+      "name": "SolarCellRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_cell_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/solar_cell_recipe.json"
+        ]
+      },
+      "path": "~/Components/Solar Cell"
+    },
+    {
+      "name": "CableTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_tag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefegrid/procedures/CableTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GlobalProcedures"
+    },
+    {
+      "name": "BasicCableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_cable_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_fe_grid/recipes/basic_cable_recipe.json"
+        ]
+      },
+      "path": "~/Cables/Basic Cable"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "forgeFlow",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "solarPanelDirection",
+      "type": "direction",
+      "scope": "global",
+      "value": "Direction.NORTH"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:AluminiumBlock",
+      "~CUSTOM:BauxiteBlock",
+      "~CUSTOM:BauxiteOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CableS",
+      "~CUSTOM:CableF",
+      "~CUSTOM:CableXC",
+      "~CUSTOM:CableX",
+      "~CUSTOM:CableTXCC",
+      "~CUSTOM:CableTXC",
+      "~CUSTOM:CableTX",
+      "~CUSTOM:CableTC",
+      "~CUSTOM:CableT",
+      "~CUSTOM:CableLTC",
+      "~CUSTOM:CableLT",
+      "~CUSTOM:CableLCC",
+      "~CUSTOM:CableLC",
+      "~CUSTOM:CableL",
+      "~CUSTOM:CableI",
+      "~CUSTOM:CableE",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:AluminiumBlock",
+      "~CUSTOM:AluminiumProcessor",
+      "~CUSTOM:Extruder",
+      "~CUSTOM:Granite",
+      "~CUSTOM:BauxiteBlock",
+      "~CUSTOM:BauxiteOre",
+      "~CUSTOM:OneMillionStorageBlock",
+      "~CUSTOM:QuarterOfAMillionStorageBlock",
+      "~CUSTOM:HalfAMillionStorageBlock",
+      "~CUSTOM:SolarPanelFrameWithCable",
+      "~CUSTOM:SolarPanelFrame",
+      "~CUSTOM:SolarPanelOnFrame",
+      "~CUSTOM:SolarPanel",
+      "~CUSTOM:EnergyBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Granite"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SilicaSand"
+    ],
+    "BLOCKS:mod:cables/iron": [
+      "CUSTOM:CableN",
+      "CUSTOM:CableE",
+      "CUSTOM:CableI",
+      "CUSTOM:CableL",
+      "CUSTOM:CableLC",
+      "CUSTOM:CableLCC",
+      "CUSTOM:CableLT",
+      "CUSTOM:CableLTC",
+      "CUSTOM:CableT",
+      "CUSTOM:CableTC",
+      "CUSTOM:CableTX",
+      "CUSTOM:CableTXC",
+      "CUSTOM:CableTXCC",
+      "CUSTOM:CableX",
+      "CUSTOM:CableXC",
+      "CUSTOM:CableF",
+      "CUSTOM:CableS"
+    ],
+    "BLOCKS:mod:cables/f/copper": [
+      "CUSTOM:CableN",
+      "CUSTOM:CableE",
+      "CUSTOM:CableI",
+      "CUSTOM:CableL",
+      "CUSTOM:CableLC",
+      "CUSTOM:CableLCC",
+      "CUSTOM:CableLT",
+      "CUSTOM:CableLTC",
+      "CUSTOM:CableT",
+      "CUSTOM:CableTC",
+      "CUSTOM:CableTX",
+      "CUSTOM:CableTXC",
+      "CUSTOM:CableTXCC",
+      "CUSTOM:CableX",
+      "CUSTOM:CableXC",
+      "CUSTOM:CableF",
+      "CUSTOM:CableS"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:TheFEGrid": [
+      "EnergyBlock",
+      "QuarterOfAMillionStorageBlock",
+      "HalfAMillionStorageBlock",
+      "OneMillionStorageBlock",
+      "SolarPanel",
+      "SolarPanelOnFrame",
+      "SolarPanelFrame",
+      "SolarPanelFrameWithCable",
+      "CableN",
+      "SolarPanelCircuit",
+      "SolarCell",
+      "AluminiumFrame",
+      "IronCircuit",
+      "GoldCircuit",
+      "DiamondCircuit",
+      "SiliconWafer",
+      "WireSpool",
+      "IronWire",
+      "CopperWire",
+      "Capacitor",
+      "LithiumCell",
+      "Battery",
+      "Extruder",
+      "AluminiumProcessor",
+      "Smelter",
+      "IronSheet",
+      "Carbon",
+      "BauxiteOre",
+      "BauxiteBlock",
+      "BauxiteDust",
+      "AluminiumBlock",
+      "AluminiumIngot",
+      "Alumina",
+      "SteelBlock",
+      "SteelIngot",
+      "SilicaSand",
+      "SiliconIngot",
+      "SiliconNugget",
+      "Granite",
+      "LithiumIngot",
+      "LithiumDust",
+      "FETestBlock"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "gui.the_fe_grid.fe_test_block_gui.label_fe_test_block": "FE Test Block",
+      "item.the_fe_grid__mcr.wire_spool": "Wire Spool",
+      "gui.the_fe_grid__mcr.fe_test_block_gui.label_z1": "z-1",
+      "item.the_fe_grid__mcr.battery": "Battery",
+      "item.the_fe_grid__mcr.carbon": "Carbon",
+      "block.the_fe_grid.silica_sand": "Silica Sand",
+      "block.the_fe_grid__mcr.solar_panel_frame_with_cable": "Solar Panel Frame With Cable",
+      "item.the_fe_grid.bauxite_dust": "Bauxite",
+      "block.the_fe_grid__mcr.extruder": "Extruder",
+      "block.the_fe_grid.cable_xc": "Cable",
+      "item.the_fe_grid.lithium_ingot": "Lithium Ingot",
+      "gui.the_fe_grid.fe_test_block_gui.label_z1": "z-1",
+      "item.the_fe_grid__mcr.aluminium_frame": "Aluminium Frame",
+      "block.the_fe_grid.quarter_of_a_million_storage_block": "250kFE Storage Unit",
+      "gui.the_fe_grid__mcr.fe_test_block_gui.label_x11": "x+1",
+      "block.the_fe_grid__mcr.solar_panel_on_frame": "Solar Panel On Frame",
+      "item.the_fe_grid.solar_panel_circuit": "Solar Panel Circuit Board",
+      "gui.the_fe_grid__mcr.fe_test_block_gui.label_y1": "y-1",
+      "block.the_fe_grid__mcr.half_a_million_storage_block": "500kFE Storage Unit",
+      "item.the_fe_grid.capacitor": "Capacitor",
+      "item.the_fe_grid__mcr.silicon_nugget": "Silicon Nugget",
+      "item.the_fe_grid.silicon_ingot": "Silicon Ingot",
+      "gui.the_fe_grid__mcr.extruder_gui.button_wiki": "Wiki",
+      "block.the_fe_grid__mcr.granite": "Granite",
+      "item.the_fe_grid__mcr.lithium_cell": "Lithium Cell",
+      "gui.the_fe_grid.fe_test_block_gui.label_y11": "y+1",
+      "item.the_fe_grid__mcr.silicon_ingot": "Silicon Ingot",
+      "block.the_fe_grid__mcr.solar_panel": "Solar Panel",
+      "gui.the_fe_grid.fe_test_block_gui.label_y1": "y-1",
+      "gui.the_fe_grid.extruder_gui.button_wiki": "Wiki",
+      "block.the_fe_grid.cable_n": "Cable",
+      "gui.the_fe_grid__mcr.fe_test_block_gui.label_x1": "x-1",
+      "block.the_fe_grid.cable_txc": "Cable",
+      "block.the_fe_grid.cable_i": "Cable",
+      "block.the_fe_grid.solar_panel_frame": "Solar Panel Frame",
+      "item.the_fe_grid.steel_ingot": "Steel Ingot",
+      "block.the_fe_grid.cable_l": "Cable",
+      "item.the_fe_grid.gold_circuit": "Gold Circuit",
+      "block.the_fe_grid.solar_panel_frame_with_cable": "Solar Panel Frame With Cable",
+      "block.the_fe_grid.cable_x": "Cable",
+      "block.the_fe_grid.cable_s": "Cable",
+      "block.the_fe_grid.cable_t": "Cable",
+      "gui.the_fe_grid.extruder_gui.label_extruder": "Extruder",
+      "block.the_fe_grid.cable_e": "Cable",
+      "block.the_fe_grid.cable_f": "Cable",
+      "item.the_fe_grid__mcr.lithium_ingot": "Lithium Ingot",
+      "item.the_fe_grid.diamond_circuit": "Diamond Circuit",
+      "block.the_fe_grid.cable_txcc": "Cable",
+      "block.the_fe_grid.aluminium_processor": "Aluminium Processor",
+      "block.the_fe_grid__mcr.silica_sand": "Silica Sand",
+      "gui.the_fe_grid.fe_test_block_gui.label_x1": "x-1",
+      "block.the_fe_grid.solar_panel_on_frame": "Solar Panel On Frame",
+      "item.the_fe_grid.aluminium_frame": "Aluminium Frame",
+      "item.the_fe_grid__mcr.copper_wire": "Copper Wire",
+      "item.the_fe_grid__mcr.capacitor": "Capacitor",
+      "block.the_fe_grid.energy_block": "Energy Block",
+      "item.the_fe_grid__mcr.lithium_dust": "Lithium Dust",
+      "block.the_fe_grid.aluminium_block": "Aluminium Block",
+      "item.the_fe_grid.wire_spool": "Wire Spool",
+      "item.the_fe_grid.aluminium_ingot": "Aluminium Ingot",
+      "block.the_fe_grid.one_million_storage_block": "1mFE Storage Unit",
+      "block.the_fe_grid.smelter": "Smelter",
+      "gui.the_fe_grid.fe_test_block_gui.label_x11": "x+1",
+      "block.the_fe_grid__mcr.energy_block": "Energy Block",
+      "block.the_fe_grid__mcr.one_million_storage_block": "1mFE Storage Unit",
+      "gui.the_fe_grid__mcr.fe_test_block_gui.label_fe_test_block": "FE Test Block",
+      "block.the_fe_grid.steel_block": "Steel Block",
+      "block.the_fe_grid.cable_tx": "Cable",
+      "block.the_fe_grid.granite": "Granite",
+      "block.the_fe_grid.cable_lc": "Cable",
+      "item.the_fe_grid__mcr.iron_sheet": "Iron Sheet",
+      "block.the_fe_grid.cable_tc": "Cable",
+      "item.the_fe_grid.iron_sheet": "Iron Sheet",
+      "item.the_fe_grid.battery": "Battery",
+      "item.the_fe_grid.solar_cell": "Solar Cell",
+      "gui.the_fe_grid__mcr.fe_test_block_gui.label_z11": "z+1",
+      "gui.the_fe_grid.aluminium_processor_gui.button_wiki": "Wiki",
+      "item.the_fe_grid.carbon": "Carbon",
+      "item.the_fe_grid.alumina": "Alumina",
+      "item_group.the_fe_grid.the_fe_grid": "The FE Grid",
+      "item.the_fe_grid__mcr.bauxite_dust": "Bauxite",
+      "item.the_fe_grid.iron_wire": "Iron Wire",
+      "item.the_fe_grid.iron_circuit": "Iron Circuit",
+      "item.the_fe_grid.lithium_cell": "Lithium Cell",
+      "block.the_fe_grid.cable_lcc": "Cable",
+      "block.the_fe_grid__mcr.quarter_of_a_million_storage_block": "250kFE Storage Unit",
+      "gui.the_fe_grid.smelter_gui.label_smelter": "Smelter",
+      "item.the_fe_grid__mcr.silicon_wafer": "Silicon Wafer",
+      "item_group.the_fe_grid__mcr.the_fe_grid": "The FE Grid",
+      "item.the_fe_grid.silicon_wafer": "Silicon Wafer",
+      "block.the_fe_grid__mcr.bauxite_ore": "Bauxite Ore",
+      "gui.the_fe_grid__mcr.extruder_gui.label_extruder": "Extruder",
+      "block.the_fe_grid.cable_ltc": "Cable",
+      "block.the_fe_grid.bauxite_block": "Bauxite Block",
+      "item.the_fe_grid.copper_wire": "Copper Wire",
+      "block.the_fe_grid__mcr.solar_panel_frame": "Solar Panel Frame",
+      "block.the_fe_grid.extruder": "Extruder",
+      "item.the_fe_grid.silicon_nugget": "Silicon Nugget",
+      "block.the_fe_grid__mcr.bauxite_block": "Bauxite Block",
+      "gui.the_fe_grid__mcr.fe_test_block_gui.label_y11": "y+1",
+      "block.the_fe_grid.bauxite_ore": "Bauxite Ore",
+      "item.the_fe_grid.lithium_dust": "Lithium Dust",
+      "block.the_fe_grid.half_a_million_storage_block": "500kFE Storage Unit",
+      "gui.the_fe_grid.aluminium_processor_gui.label_aluminium_processor": "Aluminium Processor",
+      "item.the_fe_grid__mcr.iron_wire": "Iron Wire",
+      "block.the_fe_grid.cable_lt": "Cable",
+      "block.the_fe_grid__mcr.fe_test_block": "FE Test Block",
+      "block.the_fe_grid.fe_test_block": "FE Test Block",
+      "block.the_fe_grid.solar_panel": "Solar Panel",
+      "gui.the_fe_grid.fe_test_block_gui.label_z11": "z+1"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Energy Block",
+        "children": []
+      },
+      {
+        "name": "Solar Panels",
+        "children": []
+      },
+      {
+        "name": "Solar Panel Frame",
+        "children": []
+      },
+      {
+        "name": "FE Test",
+        "children": []
+      },
+      {
+        "name": "Workstations",
+        "children": [
+          {
+            "name": "Extruder",
+            "children": []
+          },
+          {
+            "name": "AluminiumProcessor",
+            "children": []
+          },
+          {
+            "name": "Smelter",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "FE Storage Blocks",
+        "children": []
+      },
+      {
+        "name": "Ores-Metals",
+        "children": [
+          {
+            "name": "Bauxite",
+            "children": []
+          },
+          {
+            "name": "Carbon",
+            "children": []
+          },
+          {
+            "name": "Silicon",
+            "children": []
+          },
+          {
+            "name": "Granite-Lithium",
+            "children": []
+          },
+          {
+            "name": "Aluminium",
+            "children": []
+          },
+          {
+            "name": "Steel",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Components",
+        "children": [
+          {
+            "name": "SiliconWafer",
+            "children": []
+          },
+          {
+            "name": "Wire",
+            "children": []
+          },
+          {
+            "name": "Capacitor",
+            "children": []
+          },
+          {
+            "name": "Batteries",
+            "children": []
+          },
+          {
+            "name": "Solar Cell",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Other Items",
+        "children": [
+          {
+            "name": "WireSpool",
+            "children": []
+          },
+          {
+            "name": "AluminiumFrame",
+            "children": []
+          },
+          {
+            "name": "IronSheet",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Circuit Boards",
+        "children": []
+      },
+      {
+        "name": "GlobalProcedures",
+        "children": []
+      },
+      {
+        "name": "Circuits",
+        "children": []
+      },
+      {
+        "name": "Cables",
+        "children": [
+          {
+            "name": "Basic Cable",
+            "children": [
+              {
+                "name": "Procedures",
+                "children": []
+              },
+              {
+                "name": "OtherCableModels",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Advanced Cable",
+            "children": []
+          },
+          {
+            "name": "Elite Cable",
+            "children": []
+          },
+          {
+            "name": "Ultimate Cable",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_fe_grid",
+    "modName": "The FE Grid",
+    "version": "1.1.5 MC 1.20.1",
+    "author": "FatalMistake02",
+    "websiteURL": "https://thefegrid.fatalmistake02.com",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "theFEgridLogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thefegrid"
+  },
+  "mcreatorVersion": 202400452410
+}

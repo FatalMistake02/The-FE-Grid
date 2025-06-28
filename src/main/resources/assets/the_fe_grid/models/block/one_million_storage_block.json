@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "the_fe_grid:block/one-mil-storage-unit-top",
+    "top": "the_fe_grid:block/one-mil-storage-unit-top",
+    "side": "the_fe_grid:block/one-mil-storage-unit-side",
+    "overlay": "the_fe_grid:block/one-mil-storage-unit-side",
+    "particle": "the_fe_grid:block/one-mil-storage-unit-top"
+  },
+  "render_type": "cutout_mipped"
+}

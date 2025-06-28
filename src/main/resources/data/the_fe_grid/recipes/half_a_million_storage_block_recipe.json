@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_fe_grid:steel_ingot"
+    },
+    "b": {
+      "item": "the_fe_grid:iron_circuit"
+    },
+    "c": {
+      "item": "the_fe_grid:iron_wire"
+    },
+    "d": {
+      "item": "the_fe_grid:cable_n"
+    },
+    "e": {
+      "item": "the_fe_grid:quarter_of_a_million_storage_block"
+    },
+    "f": {
+      "item": "the_fe_grid:battery"
+    }
+  },
+  "result": {
+    "item": "the_fe_grid:half_a_million_storage_block",
+    "count": 1
+  }
+}

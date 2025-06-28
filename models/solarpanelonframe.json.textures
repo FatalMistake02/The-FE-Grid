@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "solarpaneltexture"
+      },
+      "name": "default"
+    }
+  }
+}
