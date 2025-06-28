@@ -1,0 +1,10 @@
+
+
+backups/
+Procedures/
+random model files/
+Versions/
+*.lnk
+bbModels/
+*.docx
+*.zip
