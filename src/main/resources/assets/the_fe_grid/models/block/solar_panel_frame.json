@@ -1,9 +1,0 @@
-{
-  "parent": "the_fe_grid:custom/solarframe",
-  "textures": {
-    "all": "the_fe_grid:block/frame",
-    "particle": "the_fe_grid:block/frame",
-    "0": "the_fe_grid:block/frame"
-  },
-  "render_type": "solid"
-}

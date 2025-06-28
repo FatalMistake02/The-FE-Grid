@@ -1,9 +1,0 @@
-{
-  "parent": "the_fe_grid:custom/electrical_cable_ltc",
-  "textures": {
-    "all": "the_fe_grid:block/electrical_cable",
-    "particle": "the_fe_grid:block/electrical_cable",
-    "texture": "the_fe_grid:block/electrical_cable"
-  },
-  "render_type": "cutout"
-}

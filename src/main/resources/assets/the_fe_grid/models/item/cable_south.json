@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "fe_grid:item/fe_cable_-_converted"
-  },
-  "render_type": "translucent"
-}

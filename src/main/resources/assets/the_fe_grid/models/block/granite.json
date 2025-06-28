@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "the_fe_grid:block/granite",
-    "particle": "the_fe_grid:block/granite"
-  },
-  "render_type": "solid"
-}

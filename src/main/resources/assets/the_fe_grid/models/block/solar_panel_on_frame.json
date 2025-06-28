@@ -1,8 +1,0 @@
-{
-  "parent": "the_fe_grid:custom/solarpanelonframe",
-  "textures": {
-    "all": "the_fe_grid:block/solarpaneltexture",
-    "particle": "the_fe_grid:block/solarpaneltexture"
-  },
-  "render_type": "solid"
-}

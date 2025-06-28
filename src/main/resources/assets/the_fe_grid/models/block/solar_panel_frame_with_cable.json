@@ -1,9 +1,0 @@
-{
-  "parent": "the_fe_grid:custom/solarframe_withpowercable",
-  "textures": {
-    "all": "the_fe_grid:block/frame_powercable",
-    "particle": "the_fe_grid:block/frame_powercable",
-    "1": "the_fe_grid:block/frame_powercable"
-  },
-  "render_type": "solid"
-}

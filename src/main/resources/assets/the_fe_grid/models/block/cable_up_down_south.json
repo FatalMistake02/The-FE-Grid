@@ -1,9 +1,0 @@
-{
-  "parent": "fe_grid:custom/fe_cable_-_up-down-south",
-  "textures": {
-    "all": "fe_grid:block/cables2",
-    "particle": "fe_grid:block/cables2",
-    "1": "fe_grid:block/cables2"
-  },
-  "render_type": "solid"
-}

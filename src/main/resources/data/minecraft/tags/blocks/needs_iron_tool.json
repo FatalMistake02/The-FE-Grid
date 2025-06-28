@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "the_fe_grid:steel_block",
-    "the_fe_grid:aluminium_block",
-    "the_fe_grid:bauxite_block",
-    "the_fe_grid:bauxite_ore"
-  ]
-}

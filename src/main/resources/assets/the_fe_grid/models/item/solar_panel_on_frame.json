@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "the_fe_grid:item/solarpanel"
-  },
-  "render_type": "translucent"
-}
