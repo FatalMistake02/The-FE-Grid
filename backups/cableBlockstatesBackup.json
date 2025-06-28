@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fe_grid:block/cable"
+    }
+  }
+}
